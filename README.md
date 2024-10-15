@@ -56,6 +56,8 @@ class Page {
         self.content = content
     }
 }
+```
+
 
 ## Observed Behavior
 With the code above, I created a Book instance and populated all fields except for the pages, which was left as nil. However, when I attempt to iterate over the pages, I receive the contentPage instead. This indicates that there may be an issue with how SwiftData handles these associations.
